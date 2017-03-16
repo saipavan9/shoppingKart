@@ -1,6 +1,7 @@
 <div class="row">
+    <div class="login-form">
     <div class="col-md-4 col-md-offset-4">
-        <h1>Sign In</h1>
+        <h2>Login</h2>
         {{#if hasErrors}}
 
             <div class="alert alert-danger">
@@ -15,14 +16,20 @@
         <form action="/user/signin " method="post">
             <div class="form-group">
                 <label for="email">E-Mail</label>
-                <input type="text" id="email" name="email" class="form-control">
+                <input type="text" id="email" name="email" class="form-control" placeholder="Enter your email address">
             </div>
             <div class="form-group">
                 <label for="password">Password</label>
-                <input type="password" id="password" name="password" class="form-control">
+                <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password">
             </div>
             <input type="hidden" name="_csrf" value="{{ csrfToken }}">
-            <button type="submit">Sign In</button>
+            <button type="submit">Login</button>
         </form>
+        <div class="signup">
+            <h2 style="text-align: center">Are you a new User??</h2>
+            <a class="signup-button" href="/user/signup">Sign up here</a>
+
+        </div>
+    </div>
     </div>
 </div>
