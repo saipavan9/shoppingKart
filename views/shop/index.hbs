@@ -1,0 +1,41 @@
+ <div class="features_items">
+            <h2 class="title text-center">Features Items</h2>
+        {{# each products }}
+            <div class="row">
+                {{# each this }}
+                <div class="col-sm-6 col-md-4">
+                    <div class="product-image-wrapper">
+                        <div class="single-products">
+                            <div class="productinfo text-center thumbnail">
+                                        <img src="{{this.imagePath}}" alt="" />
+                                <div class="caption">
+
+                                    <h2>&#x20b9;{{this.price}}</h2>
+                                    <p>{{this.title}}</p>
+                                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                </div>
+                                <div class="choose">
+                                    <ul class="nav nav-pills nav-justified">
+                                        <li><a href="#"><i class="fa fa-plus-square"></i>Add to wishlist</a></li>
+                                    </ul>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            {{/each}}
+
+ </div>
+
+
+
+
+
