@@ -824,3 +824,76 @@ h2.title {
 
   max-height: 150px;
 }
+
+
+
+/*************************
+*******checkout CSS******
+**************************/
+
+
+
+ h2{
+  color: #696763;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 30px;
+   text-align: center;
+
+}
+
+h3{
+   color: #696763;
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   margin-bottom: 10px;
+   text-align: center;
+ }
+
+.checkout input{
+  background: #F0F0E9;
+  border: medium none;
+  color: #696763;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  height: 40px;
+  margin-bottom: 10px;
+  outline: medium none;
+  padding-left: 10px;
+  width: 100%;
+
+}
+
+.checkoutform span{
+  line-height: 25px;
+}
+
+.checkout form button {
+  margin-top: 23px;
+}
+
+ form button {
+  background: #FE980F;
+  border: medium none;
+  border-radius: 0;
+  color: #FFFFFF;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  padding: 6px 25px;
+}
+
+
+.checkout label input {
+  border: medium none;
+  display: inline-block;
+  height: 0;
+  margin-bottom: 0;
+  outline: medium none;
+  padding-left: 0;
+}
+.expiry{
+  display: inline;
+}
